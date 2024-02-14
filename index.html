@@ -1,14 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <script src="script.js" defer></script>
     <title>News Homepage</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header-content">
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo" />
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+    <main>
+      <div class="main-flex">
+        <div class="grid-content">
+          <div class="hero-image">
+            <img src="images/image-web-3-desktop.jpg" alt="web-3">
+          </div>
+          <div class="hero-head">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="hero-para">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <button class="btn-primary">Read More</button>
+          </div>
+        </div>
+        <div class="flex-box-side">
+          <h2 class="side-head">New</h2>
+          <div class="flex-column">
+            <h3 class="box-head">Hydrogen VS Electric Cars</h3>
+            <p class="box-para">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="flex-column">
+            <h3 class="box-head">The Downsides of AI Artistry</h3>
+            <p class="box-para">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div class="flex-column">
+            <h3 class="box-head">Is VC Funding Drying Up?</h3>
+            <p class="box-para">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-3-col">
+        <div class="boxes">
+          <div class="box-image"><img src="images/image-retro-pcs.jpg" alt="retro-pc">
+          <div class="box-content">
+            <p class="box-head">01</p>
+            <p class="box-title">Reviving Retro PCs</p>
+            <p class="box-para">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box-image"><img src="images/image-top-laptops.jpg" alt="laptop">
+          <div class="box-content">
+            <p class="box-head">02</p>
+            <p class="box-title">Top 10 Laptops of 2022</p>
+            <p class="box-para">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box-image"><img src="images/image-gaming-growth.jpg" alt="gaming">
+          <div class="box-content">
+            <p class="box-head">03</p>
+            <p class="box-title">The Growth of Gaming</p>
+            <p class="box-para">How the pandemic has sparked fresh opportunities</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
